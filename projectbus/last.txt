@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <STYLE>table,td{background-color: rgb(146, 146, 146);width:50%;margin:auto;margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 100px;
+        margin-left: 500px;}
+        
+        </STYLE>
+</head>
+<body>
+     <!-- <img src="C:\Users\91868\Downloads\busimg1.jpg"> -->
+    <table>
+		<tr>
+		<td>
+            <form>
+                <p>PAYMENT OPTIONS</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">UPI</label><br>
+                 <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">NET BANKING</label><br><br><br>
+                <label for = "BANK DETAILS">CARD DETAILS</label><br>
+                <input type = "text" id = "BANK DETAILS" ><br><br> 
+                <input type="submit" value="SELECT" id = "submit"><br><br><br>
+        <label for = "ENTER OTP">ENTER OTP</label><br>
+    <input type = "text" id = "ENTER OTP" ><br><br>
+    <strong><a href="C:\Users\91868\Downloads\AC_GST_Tax_Invoice.pdf" target="pdf viewer">book seats</a></strong><br><br>
+    <iframe src="" name="pdf viewer" height="400" width="425" title="iframe example"></iframe>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

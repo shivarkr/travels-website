@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>book bus tickets online</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+           /* background-color: rgba(245, 245, 245);*/
+
+        }
+        li, a, button{
+            /*font*/
+            font-weight: 500;
+            font-size: 16px;
+            /*color:#edf0f1;*/
+            text-decoration: none;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px ;
+            background-color: rgb(255, 255, 255);
+
+
+
+        }
+        .nav_links{
+            list-style-type: none;
+
+        }
+      
+
+        .nav_links li {
+           display:inline-block;
+           padding: 0px 20px;
+        }
+        .nav_links li a {
+            transition: all 0.3s ease 0s;
+      
+        }
+        .nav_links li a:hover {
+            color:aquamarine;
+            
+      
+        }
+        button{
+            margin-left: 20px;
+            padding: 9px 20px;
+            background-color:rgb(129, 170, 180) ;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+
+        }
+        .bdy{
+            float: center;
+            /*background-image: url(BUS1.jpg);*/
+           background-color: rgb(101, 137, 137);
+        }
+        .sear{
+            background-image: url(BUS1.jpg); 
+           
+        }
+        input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('nav1.jpg');
+  background-position: 1px 1px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+input[type=date] {
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+ /* background-image: url('nav.jpg');*/
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+</style>
+        
+        
+    </style>
+</head>
+<body>
+    
+    <header >
+        <img src="logo.jpg" height="80px" width="120px">
+ 
+    <nav>      
+        <ul class="nav_links">
+            <li><a href="#"></a></li>
+            <li style="float:right"><a href="#"><span style="color:rgb(0, 0, 0)">CONTACT</span></a></li>
+            <li style="float:right"><a href="#"><span style="color:rgb(0, 0, 0)">ABOUT US</span></a></li>
+            
+        </ul>
+    </nav>
+
+
+
+    <a href="login.html"><button> signin</button></a>
+
+
+    </header>
+
+
+
+    <div class="sear" >
+        <img src="BUS1.jpg">
+        <div class="bdy" >
+        <form  >
+            <label></label>
+            <input type="text" id="start" placeholder="source" >
+            <label></label>
+            <input type="text" id="des" placeholder="destination">
+            <label><span style="font-size:26px">Date</span></label>
+            <input type="date" id="date">
+            <button type="submit"> Check availability</button>
+        </form>
+        </div>
+
+    </div>
+    
+
+    
+</body>
+</html>

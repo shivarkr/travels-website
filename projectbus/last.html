@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <STYLE>table,td
+    {
+        background-color: rgba(217, 215, 215, 0.982);
+        border-radius: 15px;
+    width:50%;
+    margin:auto;
+    margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 100px;
+        margin-left: 450px;}
+        form{
+            padding:20px 10px 10px 30px;
+            
+        }
+        body{
+            background-color: rgb(164, 204, 204);
+        }
+        input[type=text], select, textarea {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #495c67;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #61cbe0;
+}
+        
+        </STYLE>
+</head>
+<body>
+    
+    <table>
+		<tr>
+		<td>
+            <form>
+             
+                <p>PAYMENT OPTIONS</p>
+                
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">UPI</label><br>
+                 <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">NET BANKING</label><br><br><br>
+                <label for = "BANK DETAILS">CARD DETAILS</label><br>
+                <input type = "text" id = "BANK DETAILS" ><br><br> 
+                <input type="submit" value="SELECT" id = "submit"><br><br><br>
+        <label for = "ENTER OTP">ENTER OTP</label><br>
+    <input type = "text" id = "ENTER OTP" ><br><br>
+    <strong><a href="ticket.pdf" target="pdf viewer">Conform</a></strong><br><br>
+    <iframe src="" name="pdf viewer" height="400" width="425" title="iframe example"></iframe>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

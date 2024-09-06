@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+
+    function validateForm() {
+  let x = document.forms["myForm"]["start"].value;
+  let z = document.forms["myForm"]["des"].value;
+  let y = document.forms["myForm"]["date"].value;
+
+
+  if (x == "") {
+    alert("Source must be filled out");
+    return false;
+  }
+  else if (z == "") {
+    alert("Destination must be filled out");
+    return false;
+  }
+  else if (y == "") {
+    alert("Date must be filled out");
+    return false;
+  }else
+  
+  location.replace("https://www.w3schools.com")
+}
+</script>
+  </script>
+
+    <title>book bus tickets online</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+           /* background-color: rgba(245, 245, 245);*/
+
+        }
+        li, a, button{
+            /*font*/
+            font-weight: 500;
+            font-size: 16px;
+            /*color:#edf0f1;*/
+            text-decoration: none;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px ;
+            background-color: rgb(255, 255, 255);
+
+
+
+        }
+        .nav_links{
+            list-style-type: none;
+
+        }
+      
+
+        .nav_links li {
+           display:inline-block;
+           padding: 0px 20px;
+        }
+        .nav_links li a {
+            transition: all 0.3s ease 0s;
+      
+        }
+        .nav_links li a:hover {
+            color:aquamarine;
+            
+      
+        }
+        button{
+            margin-left: 20px;
+            padding: 9px 20px;
+            background-color:rgb(129, 170, 180) ;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+
+        }
+        .bdy{
+            padding-left: 490px;
+            float: center;
+            background-image: url(BUS1.jpg);
+            background-color: rgb(101, 137, 137);
+            height: 500px;
+            padding: 300px 200px 200px 380px ;
+        }
+        .hh{
+            float:left;
+            padding-bottom: 100px;
+            font-size: 50px;
+        }
+
+        .container1 {
+  font-family: arial;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1135px;
+  height: 600px;
+  outline:  1px rgb(152, 16, 16);
+  padding:15px 10px 10px 20px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 5px;
+
+  /* Center child horizontally*/
+  display: flex;
+  justify-content: center;
+}
+
+        input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('nav1.jpg');
+  background-position: 1px 1px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+input[type=date] {
+  width: 190px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+ /* background-image: url('nav.jpg');*/
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+</style>
+
+</head>
+<body>
+    
+    <header >
+        <img src="logo.jpg" height="80px" width="120px">
+ 
+    <nav>      
+        <ul class="nav_links">
+            <li><a href="#"></a></li>
+            <li style="float:right"><a href="contactus.html"><span style="color:rgb(0, 0, 0)">CONTACT</span></a></li>
+            <li style="float:right"><a href="aboutus.html"><span style="color:rgb(0, 0, 0)">ABOUT US</span></a></li>
+            
+        </ul>
+    </nav>
+    <a href="login.html"><button> signin</button></a>
+    </header>
+    <div  class="hh" ><h>Via travelers</h></div>
+    <div class="sear" >
+        
+        <div class="bdy" >
+        <form name="myForm" action="ver1 2nd page.html" onsubmit="return validateForm()" method="post" >
+            <label></label>
+            <input type="text" name="start" placeholder="source" >
+            <label></label>
+            <input type="text" name="des" placeholder="destination">
+            <label><span style="font-size:26px">Date</span></label>
+            <input type="date" name="date">
+            <button> <input type="submit" value="Submit"> </button>
+        </form>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2 style="text-align:center">Top Travelling routes</h2>
+       <br>
+       <br>
+       <br>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="ver1 2nd page.html" target="_blank">
+                <img src="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQLMpf2L8YcpukGJqgna2NebcCxOEM1NUlM-k4BVLHL0eKqUTA0RrtuwVB68rDOTd41" alt="Lights" style="width:100%">
+                <div class="caption">
+                  <p>Banglore to Hyderabad</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="ver1 2nd page.html" target="_blank">
+                <img src="https://pix10.agoda.net/geo/city/4923/1_4923_02.jpg?ca=8&ce=1&s=1920x822" alt="Nature" style="width:100%">
+                <div class="caption">
+                  <p>Chennai to banglore</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="ver1 2nd page.html" target="_blank">
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/09/places-vist-in-Chennai-600.jpg" alt="Fjords" style="width:100%">
+                <div class="caption">
+                  <p>Banglore to chennai</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="ver1 2nd page.html" target="_blank">
+                  <img src="https://assets.thehansindia.com/h-upload/feeds/2019/05/10/173219-vizag.jpg" alt="Lights" style="width:100%">
+                  <div class="caption">
+                    <p>Chennai to Vizag.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="ver1 2nd page.html" target="_blank">
+                  <img src="https://tripvibe.online/wp-content/uploads/2021/06/sree-padmanabha-swamy-temple-1.jpg" alt="Nature" style="width:100%">
+                  <div class="caption">
+                    <p> Kochi to trivandrum.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="ver1 2nd page.html" target="_blank">
+                  <img src="https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg" alt="Fjords" style="width:100%">
+                  <div class="caption">
+                    <p>Delhi to mumbai </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container1">
+        <p>
+         The Best Way to Book Bus Ticket
+         <br><br>
+        Do you want to know the best way to book tickets online securely and how to book tickets in advance? Viatravels.com is the best online platform for bus booking, train tickets booking and hotels booking.
+         You can check the amenities provided, compare booking fares, check bus timings in 
+        
+         the searched route, other facilities and more with us. You can find an affordable and cost-effective online travel
+          bookings facility at Viatravels.
+        <br><br>
+        With Viatravels, online bus ticket booking is now very easy. You simply need to fill in the details of your journey in our search bar (departure city, destination city and the date of journey)
+         click on the search button to get all the bus operators available for booking tickets online. Then, select the bus that best suits your travel needs and securely complete your booking online 
+         on Viatravels.com.
+        <br><br>
+        We would recommend that you book your tickets at least 2 - 3 days in advance so that you can reserve bus or train seats as per your preference and get the best-discounted price on your booking.
+        <br>
+        <br>
+        
+        Online Bus Booking Services<br><br>
+        Viatravels is India<sup>'</sup>s leading online bus ticket booking service provider. Check out our great offers and amazing discount coupons to book bus tickets at the lowest price with us.<br>
+         You can check the bus schedules, compare prices, and find all the information you need to plan an ideal and comfortable bus or train journey.<br><br>
+
+        Viatravels has simplified the online bus booking process for your travel planning. Book now!!!<br>
+
+        Check all your bus or train route options and use the advanced smart filters to accommodate a reliable and comfortable journey as per your scheduled travel plan needs.
+      </p>
+        </div>
+        <br>
+        
+</body>
+</html>
